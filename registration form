@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <div class="form">
+    <h1>Registration Form</h1>
+  
+  <form><style>
+      * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 80vh;
+  margin-top: 2rem;
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+
+.first-section input {
+  width: 70%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.second-section input{
+  width: 80%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.form h1, p {
+  text-align: center;
+}
+button {
+  border: none;
+  color: white;
+  background: #1560BD;
+  padding: 8px 25px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 120px;
+}
+
+.second-section {
+  margin-top: 15px;
+}
+
+.proficiency {
+  display: flex;
+  align-items: center;
+}
+
+.terms {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}</style>
+<!-- Contact Details -->
+   
+    <!-- Personal Information -->
+    <fieldset class="second-section">
+         <label for="gender">First Name:</label>
+         <input autofocus type="text" id="name" name="name" autofocus placeholder="" autocomplete="off" required> <br><br>
+      <label for="gender">Last Name:</label>
+     <input autofocus type="text" id="name" name="name" autofocus placeholder="" autocomplete="off" required> <br><br>
+      <label for="gender">Father Name:</label>
+          <input type="text" id="fname" name="fname" size="40"><br><br>
+         <label for="gender">Mother Name:</label>
+         <input autofocus type="text" id="name" name="name" autofocus placeholder="" autocomplete="off" required> <br><br>
+           <label for="dob">Birth Date:</label>
+      <input type="date" id="dob"> <br><br>
+        <label for="gender">Gender:</label>
+      <input list="genders" name="gender" id="gender">
+      <datalist id="genders">
+        <option value="female">
+        <option value="male">
+        <option value="other">
+      </datalist><br><br>
+    
+       
+      
+      <label for="name">Email:</label>
+      <input autofocus type="text" id="name" name="name" autofocus placeholder="" autocomplete="off" required> <br><br>
+      <label for="email">Password:</label>
+      <input type="email" id="email"> <br><br>
+      <label for="tel">Confirm Password:</label>
+      <input type="tel" id="tel" > <br><br>
+      <label for="tel">Mobile Number:</label>
+      <select id="Mobile Number">
+  <option value="volvo">+91</option>
+  <option value="saab">+12</option>
+  <option value="opel">+23</option>
+  <option value="audi">+34</option>
+  <option value="audi">+81</option>
+</select>
+      <input type="tel" id="tel" > 
+      
+  <br><br>
+      
+
+      
+           
+
+    </fieldset>
+     <!-- Preferred Language -->
+     <div class="terms">
+       
+     
+     </div>
+    <button>Submit</button>
+  </form>
+  </div>
+</body>
+</html>
